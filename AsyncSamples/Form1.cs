@@ -52,7 +52,7 @@ namespace AsyncSamples
             pictureBox1.Load("http://cdn.memegenerator.net/instances/500x/34330403.jpg");
         }
 
-        private void btnAsyncPicture_Click(object sender, EventArgs e) //Async keyword'üne dikkat
+        private void btnAsyncPicture_Click(object sender, EventArgs e) 
         {
             pictureBox1.LoadAsync("http://cdn.memegenerator.net/instances/500x/34330403.jpg"); //Hazır bir async metod.
         }
